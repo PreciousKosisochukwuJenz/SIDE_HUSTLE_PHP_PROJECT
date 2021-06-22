@@ -1,1 +1,1 @@
-# SIDE_HUSTLE_PHP_PROJECT
+This repo is created for the learning purpose of php.
