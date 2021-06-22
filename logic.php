@@ -7,10 +7,12 @@
         echo("Below are numbers within the range of $start to $end <hr>");
         for($i = $start; $i <= $end; $i++){
             $arr[$counter] = $i;
+
             echo($arr[$counter]);
             echo("<br>");
             $counter++;
         }
+        return $arr;
     }
 
     #A method for printing the sum of numbers in an array
@@ -21,5 +23,6 @@
             $sum += $arr[$i];
         }
         echo("The sum of the numbers in the array is: $sum");
+        return $sum;
     }
 ?>
