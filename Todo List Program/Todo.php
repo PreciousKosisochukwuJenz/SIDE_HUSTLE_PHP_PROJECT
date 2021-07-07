@@ -37,7 +37,7 @@
                 
                     $statement = 'INSERT INTO list (item, isDone) VALUES(:item, :isDone)';
                     $sql = $db->prepare($statement);
-\                    $sql->execute([
+                    $sql->execute([
                         'item' => $description,
                         'isDone' => true
                     ]);
