@@ -121,6 +121,7 @@
  
                         ?>
                     </tbody>
+                <table>
             </div>
         </div>
     </div>
@@ -151,7 +152,6 @@
       </div>
     </div>
   </div>
-</div>
 
 <!-- Edit modal -->
 <div class="modal fade" id="EditModal">
@@ -179,6 +179,7 @@
       </div>
     </div>
   </div>
+</div>
   
 </div>
 
